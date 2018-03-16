@@ -150,8 +150,6 @@ public class Main2Activity extends AppCompatActivity implements GestureDetector.
                         public void run() {
                             if(++counter % 10 == 0) {
                                 String advised = "";
-                                //speed -= 5;
-                                //if (speed < -10) speed = 10;
                                 speed = values[valuesIndex];
                                 accel = values2[valuesIndex];
                                 if(++valuesIndex >= values.length) valuesIndex = 0;
@@ -159,14 +157,14 @@ public class Main2Activity extends AppCompatActivity implements GestureDetector.
                                 advised = String.valueOf(speed);
 
                                 TextView speedTextView = (TextView) findViewById(R.id.textView);
-                                ImageView arrowImageView = (ImageView) findViewById(R.id.imageViewArrow);
+                                ImageView arrowImageView = (ImageView) findViewById(R.id.imageArrowView);
                                 //speedTextView.setText(advised);
                                 if(accel == -2) {
                                     speedTextView.setText("---");
                                     arrowImageView.setVisibility(View.INVISIBLE);
                                 } else if(accel == -1) {
                                     speedTextView.setText(advised);
-                                    arrowImageView.setImageResource(R.drawable.red_down2);
+                                    arrowImageView.setImageResource(R.drawable.red192);
                                     arrowImageView.setVisibility(View.VISIBLE);
                                 } else if (accel == 0) {
                                     speedTextView.setText(advised);
@@ -174,7 +172,7 @@ public class Main2Activity extends AppCompatActivity implements GestureDetector.
                                     arrowImageView.setVisibility(View.INVISIBLE);
                                 } else {
                                     speedTextView.setText(advised);
-                                    arrowImageView.setImageResource(R.drawable.green_up2);
+                                    arrowImageView.setImageResource(R.drawable.green192);
                                     arrowImageView.setVisibility(View.VISIBLE);
                                 }
 
