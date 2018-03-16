@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="fill_parent"
+    android:layout_height="match_parent"
     android:stretchColumns="*">
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/button1"
             style="?android:button"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="1"
-            android:textSize="80sp"
+            android:textSize="40sp"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/button2"
             style="?android:button"
+            android:layout_height="wrap_content"
             android:text="2"
-            android:textSize="80sp"
+            android:textSize="40sp"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/button3"
             style="?android:button"
+            android:layout_height="wrap_content"
             android:text="3"
-            android:textSize="80sp"
+            android:textSize="40sp"
             android:textStyle="bold" />
     </TableRow>
 
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/button4"
             style="?android:button"
+            android:layout_height="wrap_content"
             android:text="4"
-            android:textSize="80sp"
+            android:textSize="40sp"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/button5"
             style="?android:button"
+            android:layout_height="wrap_content"
             android:text="5"
-            android:textSize="80sp"
+            android:textSize="40sp"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/button6"
             style="?android:button"
             android:text="6"
-            android:textSize="80sp"
+            android:textSize="40sp"
             android:textStyle="bold" />
     </TableRow>
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/button7"
             style="?android:button"
             android:text="7"
-            android:textSize="80sp"
+            android:textSize="40sp"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/button8"
             style="?android:button"
             android:text="8"
-            android:textSize="80sp"
+            android:textSize="40sp"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/button9"
             style="?android:button"
             android:text="9"
-            android:textSize="80sp"
+            android:textSize="40sp"
             android:textStyle="bold" />
     </TableRow>
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/buttonClr"
@@ -101,7 +106,7 @@
             style="?android:button"
             android:layout_height="match_parent"
             android:text="0"
-            android:textSize="80sp"
+            android:textSize="40sp"
             android:textStyle="bold" />
 
         <Button
